@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" class="anim">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nectarline — Supply Side Studio</title>
+    <meta name="description" content="The leading independent self-serve studio for curating programmatic supply." />
+    <meta property="og:title" content="Nectarline — Supply Side Studio" />
+    <meta property="og:description" content="The leading independent self-serve studio for curating programmatic supply." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0d0830" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Nectarline" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="preload" href="/fonts/inter-tight.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/fira-code.woff2" as="font" type="font/woff2" crossorigin />
+    <script>
+      (function () {
+        var w = document.documentElement.clientWidth || window.innerWidth;
+        var u = w > 820 ? w / 1440 : w / 390;
+        document.documentElement.style.setProperty('--u', u + 'px');
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Nectarline — Supply Side Studio",
+  "description": "The leading independent self-serve studio for curating programmatic supply.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
